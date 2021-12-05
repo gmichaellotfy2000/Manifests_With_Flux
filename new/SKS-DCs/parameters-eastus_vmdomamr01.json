@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "networkInterfaceName": {
+            "value": "nc-vmdomamr01"
+        },
+        "virtualNetworkId": {
+            "value": "/subscriptions/7cfc5dbb-137f-49b8-91f8-def266311c1d/resourceGroups/New-Test/providers/Microsoft.Network/virtualNetworks/New-Test"
+        },
+        "subnetName": {
+            "value": "1stsub"
+        },
+        "virtualMachineName": {
+            "value": "vmdomamr01"
+        },
+        "virtualMachineRG": {
+            "value": "rg-domaincontollers-prod-01"
+        },
+        "osDiskType": {
+            "value": "Standard_LRS"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D2ds_v4"
+        },
+        "storageSku": {
+            "value": "Standard_LRS"
+        },
+        "adminUsername": {
+            "value": "AdminSKS"
+        }
+    }
+}
